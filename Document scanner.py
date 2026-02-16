@@ -93,13 +93,13 @@ recolored = cv.adaptiveThreshold(blur, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.TH
 
 
 # I displayed all my different versions
-cv.imshow("document", img)
-cv.imshow("gray document", gray_img)
-cv.imshow("blurred", blurred_img)
-cv.imshow("edges", edges_img)
-cv.imshow("contour", contour_img)
-cv.imshow("corners", corners_img)
-cv.imshow("warped", warped)
+# cv.imshow("document", img)
+# cv.imshow("gray document", gray_img)
+# cv.imshow("blurred", blurred_img)
+# cv.imshow("edges", edges_img)
+# cv.imshow("contour", contour_img)
+# cv.imshow("corners", corners_img)
+# cv.imshow("warped", warped)
 cv.imshow("recolored", recolored)
 
 cv.waitKey(0)
